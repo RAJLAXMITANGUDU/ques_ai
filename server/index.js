@@ -10,7 +10,7 @@ import podcastRouter from "./routes/podcastRouter.js";
 const app = express();
 app.use(
   cors({
-    origin: ["http://127.0.0.1:5173", "http://localhost:5173"],
+    origin: ["http://127.0.0.1:5173", "http://localhost:5173", "https://ques-ai-liart.vercel.app"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
